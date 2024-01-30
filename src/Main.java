@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
-        int result = service.calculator(13000000, 30, 3);
+        int result = service.calculator(100000, 1.5, 17);
         System.out.println("Ежемесячный платёж: " + result);
 
 
